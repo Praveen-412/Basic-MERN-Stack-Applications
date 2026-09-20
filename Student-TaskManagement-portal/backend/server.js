@@ -8,7 +8,7 @@ const Task = require("./models/Task");
 const User = require("./models/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
 app.use(cors());
 app.use(express.json());
